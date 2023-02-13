@@ -1,11 +1,31 @@
+:root{
+    --colorCelesteElectro: #00ffcf !important;
+    --colorVainilla: #f3e5ab !important;
+}
+
 body{
     font-family: Cascadia Code;
 }
 
-.colVanilla{
-    color: #f3e5ab;
+.colorHTML5{
+    color: var(--colorCelesteElectro);
+}
+.colorJsVanilla{
+    color: var(--colorVainilla);
 }
 
 .menuDesp{
     top: 230px;
 }
+
+.colorTexto{
+    color: #6fa7ff !important;
+}   
+.colorTexto:hover{
+    color: #00ffcf !important;
+}
+
+.navbar-nav .show > .nav-link,
+.navbar-nav .nav-link.active{
+    color: var(--colorCelesteElectro);
+}   
